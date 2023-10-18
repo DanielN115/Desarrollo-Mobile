@@ -46,9 +46,6 @@ fun getMonth(month:Int) {
         else -> println("No es un mes valido")
     }
 }
-
-
-
 fun getTrimester(month:Int) {
     when(month) {
         1, 2, 3 -> println("Primer trimestre")
