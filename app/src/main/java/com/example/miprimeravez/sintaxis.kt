@@ -47,6 +47,8 @@ fun getMonth(month:Int) {
     }
 }
 
+
+
 fun getTrimester(month:Int) {
     when(month) {
         1, 2, 3 -> println("Primer trimestre")
